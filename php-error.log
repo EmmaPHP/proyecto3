@@ -1,0 +1,378 @@
+[10-Jun-2022 18:50:28 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:50:28 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/login/authenticate, url => login
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[10-Jun-2022 18:50:28 Europe/Berlin] SessionController::validateSession() redirect al login
+[10-Jun-2022 18:50:28 Europe/Berlin] ExistPOST: Existen parámetros
+[10-Jun-2022 18:50:28 Europe/Berlin] login: inicio
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] login: user id 10
+[10-Jun-2022 18:50:28 Europe/Berlin] loginPaswordVerify: success
+[10-Jun-2022 18:50:28 Europe/Berlin] Login::authenticate() passed
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::initialize(): user: marvin
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[10-Jun-2022 18:50:28 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:50:28 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[10-Jun-2022 18:50:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:50:28 Europe/Berlin] Dashboard::Construct -> Inicio de dashboard
+[10-Jun-2022 18:50:28 Europe/Berlin] Dashboard::render -> Carga el index de dashboard
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] GastosModel::getByUserIdAndLimit(): count: 0
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:28 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:31 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:50:31 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:50:31 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:31 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:50:31 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:50:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:50:31 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:50:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:50:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:50:31 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:31 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:50:31 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:50:38 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:50:38 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:50:38 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::isPublic(): currentURL => salir
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[10-Jun-2022 18:50:38 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[10-Jun-2022 18:50:38 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:50:38 Europe/Berlin] APP::construct-> no hay controlador especifico
+[10-Jun-2022 18:50:38 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/, url => 
+[10-Jun-2022 18:50:38 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[10-Jun-2022 18:50:38 Europe/Berlin] SessionController::validateSession() public page
+[10-Jun-2022 18:52:02 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:52:02 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:52:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/login/authenticate, url => login
+[10-Jun-2022 18:52:02 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[10-Jun-2022 18:52:02 Europe/Berlin] SessionController::validateSession() redirect al login
+[10-Jun-2022 18:52:02 Europe/Berlin] ExistPOST: Existen parámetros
+[10-Jun-2022 18:52:02 Europe/Berlin] login: inicio
+[10-Jun-2022 18:52:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:02 Europe/Berlin] login: user id 10
+[10-Jun-2022 18:52:03 Europe/Berlin] loginPaswordVerify: success
+[10-Jun-2022 18:52:03 Europe/Berlin] Login::authenticate() passed
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::initialize(): user: marvin
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[10-Jun-2022 18:52:03 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:52:03 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[10-Jun-2022 18:52:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:52:03 Europe/Berlin] Dashboard::Construct -> Inicio de dashboard
+[10-Jun-2022 18:52:03 Europe/Berlin] Dashboard::render -> Carga el index de dashboard
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] GastosModel::getByUserIdAndLimit(): count: 0
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:48 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:52:48 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:52:48 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:48 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:52:48 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:52:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:52:48 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:52:48 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:52:48 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:52:48 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:52:48 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:52:48 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:53:54 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:53:54 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:53:54 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:53:54 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:53:54 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:53:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario, url => usuario
+[10-Jun-2022 18:53:54 Europe/Berlin] sessionController::isPublic(): currentURL => usuario
+[10-Jun-2022 18:53:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario, url => usuario
+[10-Jun-2022 18:53:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:53:54 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:53:54 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:53:54 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:54:06 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:54:06 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:54:06 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::isPublic(): currentURL => salir
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[10-Jun-2022 18:54:06 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[10-Jun-2022 18:54:06 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:54:06 Europe/Berlin] APP::construct-> no hay controlador especifico
+[10-Jun-2022 18:54:06 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/, url => 
+[10-Jun-2022 18:54:06 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[10-Jun-2022 18:54:06 Europe/Berlin] SessionController::validateSession() public page
+[10-Jun-2022 18:55:34 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:55:34 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/login/authenticate, url => login
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[10-Jun-2022 18:55:34 Europe/Berlin] SessionController::validateSession() redirect al login
+[10-Jun-2022 18:55:34 Europe/Berlin] ExistPOST: Existen parámetros
+[10-Jun-2022 18:55:34 Europe/Berlin] login: inicio
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] login: user id 10
+[10-Jun-2022 18:55:34 Europe/Berlin] loginPaswordVerify: success
+[10-Jun-2022 18:55:34 Europe/Berlin] Login::authenticate() passed
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::initialize(): user: marvin
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[10-Jun-2022 18:55:34 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:55:34 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[10-Jun-2022 18:55:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:55:34 Europe/Berlin] Dashboard::Construct -> Inicio de dashboard
+[10-Jun-2022 18:55:34 Europe/Berlin] Dashboard::render -> Carga el index de dashboard
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] GastosModel::getByUserIdAndLimit(): count: 0
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:36 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:55:36 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:55:36 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:36 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:55:36 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:55:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:55:36 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:55:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:55:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:55:36 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:55:36 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:55:36 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:57:15 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:57:15 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:57:15 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:57:15 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:57:15 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:57:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:57:15 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:57:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:57:15 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:57:15 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:57:15 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:57:15 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:57:50 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:57:50 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:57:50 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:57:50 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:57:50 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:57:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:57:50 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:57:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:57:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:57:50 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:57:50 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:57:50 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:58:38 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:58:38 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:58:38 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:58:38 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:58:38 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:58:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:58:38 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:58:38 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:58:38 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:58:38 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:58:38 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:58:38 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:58:40 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:58:40 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:58:40 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:58:40 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:58:40 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:58:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:58:40 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[10-Jun-2022 18:58:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[10-Jun-2022 18:58:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:58:40 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:58:40 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:58:40 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:59:31 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:59:31 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:59:31 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:59:31 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:59:31 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:59:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario, url => usuario
+[10-Jun-2022 18:59:31 Europe/Berlin] sessionController::isPublic(): currentURL => usuario
+[10-Jun-2022 18:59:31 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario, url => usuario
+[10-Jun-2022 18:59:31 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[10-Jun-2022 18:59:31 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:59:31 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:59:31 Europe/Berlin] Usuario Marvin
+[10-Jun-2022 18:59:34 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:59:34 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:59:34 Europe/Berlin] Conexión a BD exitosa
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::getUserSessionData(): marvin
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::validateSession(): username:marvin - role: user
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::isPublic(): currentURL => salir
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[10-Jun-2022 18:59:34 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[10-Jun-2022 18:59:34 Europe/Berlin] inicio de aplicacion web!!
+[10-Jun-2022 18:59:34 Europe/Berlin] APP::construct-> no hay controlador especifico
+[10-Jun-2022 18:59:34 Europe/Berlin] SessionController::validateSession
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/, url => 
+[10-Jun-2022 18:59:34 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[10-Jun-2022 18:59:34 Europe/Berlin] SessionController::validateSession() public page
+[11-Jun-2022 08:03:33 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:03:33 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\proyecto3\libs\app.php on line 9
+[11-Jun-2022 08:03:33 Europe/Berlin] APP::construct-> no hay controlador especifico
+[11-Jun-2022 08:03:33 Europe/Berlin] SessionController::validateSession
+[11-Jun-2022 08:03:33 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/, url => 
+[11-Jun-2022 08:03:33 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[11-Jun-2022 08:03:33 Europe/Berlin] SessionController::validateSession() public page
+[11-Jun-2022 08:03:33 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:03:33 Europe/Berlin] Errores::Construct -> Inicio de Errores
+[11-Jun-2022 08:04:01 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:01 Europe/Berlin] SessionController::validateSession
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/login/authenticate, url => login
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[11-Jun-2022 08:04:01 Europe/Berlin] SessionController::validateSession() redirect al login
+[11-Jun-2022 08:04:01 Europe/Berlin] ExistPOST: Existen parámetros
+[11-Jun-2022 08:04:01 Europe/Berlin] login: inicio
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] login: user id 16
+[11-Jun-2022 08:04:01 Europe/Berlin] loginPaswordVerify: success
+[11-Jun-2022 08:04:01 Europe/Berlin] Login::authenticate() passed
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::initialize(): user: Emmanuel
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[11-Jun-2022 08:04:01 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:01 Europe/Berlin] SessionController::validateSession
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::getUserSessionData(): Emmanuel
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::validateSession(): username:Emmanuel - role: user
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/dashboard, url => dashboard
+[11-Jun-2022 08:04:01 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] sessionController::getUserSessionData(): Emmanuel
+[11-Jun-2022 08:04:01 Europe/Berlin] Dashboard::Construct -> Inicio de dashboard
+[11-Jun-2022 08:04:01 Europe/Berlin] Dashboard::render -> Carga el index de dashboard
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] GastosModel::getByUserIdAndLimit(): count: 0
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] GastosModel::getTotalByCategoryThisMonth
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:01 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:05 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:05 Europe/Berlin] SessionController::validateSession
+[11-Jun-2022 08:04:05 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:05 Europe/Berlin] sessionController::getUserSessionData(): Emmanuel
+[11-Jun-2022 08:04:05 Europe/Berlin] sessionController::validateSession(): username:Emmanuel - role: user
+[11-Jun-2022 08:04:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[11-Jun-2022 08:04:05 Europe/Berlin] sessionController::isPublic(): currentURL => usuario?
+[11-Jun-2022 08:04:05 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/usuario?, url => usuario?
+[11-Jun-2022 08:04:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[11-Jun-2022 08:04:05 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:05 Europe/Berlin] sessionController::getUserSessionData(): Emmanuel
+[11-Jun-2022 08:04:05 Europe/Berlin] Usuario 
+[11-Jun-2022 08:04:05 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:05 Europe/Berlin] Errores::Construct -> Inicio de Errores
+[11-Jun-2022 08:04:12 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:12 Europe/Berlin] SessionController::validateSession
+[11-Jun-2022 08:04:12 Europe/Berlin] Conexión a BD exitosa
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::getUserSessionData(): Emmanuel
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::validateSession(): username:Emmanuel - role: user
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::isPublic(): currentURL => salir
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/salir, url => salir
+[11-Jun-2022 08:04:12 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[11-Jun-2022 08:04:12 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:12 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\proyecto3\libs\app.php on line 9
+[11-Jun-2022 08:04:12 Europe/Berlin] APP::construct-> no hay controlador especifico
+[11-Jun-2022 08:04:12 Europe/Berlin] SessionController::validateSession
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/proyecto3/, url => 
+[11-Jun-2022 08:04:12 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[11-Jun-2022 08:04:12 Europe/Berlin] SessionController::validateSession() public page
+[11-Jun-2022 08:04:12 Europe/Berlin] inicio de aplicacion web!!
+[11-Jun-2022 08:04:12 Europe/Berlin] Errores::Construct -> Inicio de Errores

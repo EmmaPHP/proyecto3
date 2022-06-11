@@ -1,0 +1,39 @@
+{
+    "sites":[
+        {
+            "site" : "", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "signup", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "dashboard", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "gastos", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "usuario", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "admin", 
+            "access" : "private", 
+            "role" : "admin"
+        }
+    ],
+
+    "default-sites":{
+        "user": "dashboard",
+        "admin": "admin"
+    }
+}
